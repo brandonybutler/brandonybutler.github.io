@@ -1,0 +1,56 @@
+/** Main page styling and fonts. **/
+html {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+}
+
+/** Browser compatibility with Windows Internet Explorer 8 and prior versions. **/
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+body > .logo {
+    padding: 10px;
+}
+
+/** THE BELOW CSS KEYFRAME LINES CREATE THE FADE-IN EFFECT UPON LOADING OF THE PAGE. **/
+/** Generic CSS **/
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/** Mozilla Firefox **/
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/** Apple Safari and Google Chrome **/
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/** Windows Internet Explorer and Microsoft Edge **/
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/** Opera **/
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
