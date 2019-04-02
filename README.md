@@ -9,4 +9,5 @@ I try to make various attempts to ensure browser compatibility on as many platfo
 * Mozilla Firefox version 66
 * Opera version 58
 * Tor Browser version 8
+
 However, attempts have been made to create compatibility with Windows Internet Explorer 8 through CSS styling rules and the use of an open-source JavaScript project known as [HTML5Shiv](https://github.com/aFarkas/html5shiv "Reference to the HTML5Shiv GitHub repository") that aims at enabling the use of new HTML5 sectioning elements in legacy Internet Explorer versions. I did not create it, so all credit goes to the respective project author.
