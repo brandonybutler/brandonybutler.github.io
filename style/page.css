@@ -20,7 +20,11 @@ header, section, footer, aside, nav, main, article, figure {
     display: block;
 }
 
-body > .logo {
+body > .navigation-bar {
+    padding: 5px;
+}
+
+body > .navigation-bar > .logo {
     padding: 10px;
 }
 
