@@ -8,11 +8,11 @@ html {
     -ms-user-select: none;
     -o-user-select: none;
 
-    animation: fadein 1s;
-    -webkit-animation: fadein 1s;
-    -moz-animation: fadein 1s;
-    -ms-animation: fadein 1s;
-    -o-animation: fadein 1s;
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
 }
 
 /** Browser compatibility with Windows Internet Explorer 8 and prior versions. **/
