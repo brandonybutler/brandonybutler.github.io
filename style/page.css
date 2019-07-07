@@ -27,6 +27,7 @@ html {
 
 /** Logo styling **/
 #navigation-bar > #logo {
+    font-size: 24px;
     font-family: "Bungasai", sans-serif;
 }
 
@@ -42,7 +43,7 @@ body {
 }
 
 body > #navigation-bar {
-    height: 100px;
+    height: 65px;
     width: 100%;
 
     border-bottom: 1px solid rgb(220, 220, 220);
