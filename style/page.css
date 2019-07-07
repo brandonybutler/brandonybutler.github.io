@@ -1,7 +1,7 @@
 /** Logo font **/
 @font-face {
     font-family: "Bungasai";
-    src: url('fonts/Bungasai.ttf') format('truetype');
+    src: url("fonts/Bungasai.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
