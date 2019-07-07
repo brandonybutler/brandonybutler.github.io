@@ -1,3 +1,11 @@
+/** Logo font **/
+@font-face {
+    font-family: "Bungasai";
+    src: url('fonts/Bungasai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /** Main page styling and fonts. **/
 html {
     font-family: "Nunito", sans-serif;
@@ -15,6 +23,11 @@ html {
 
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+}
+
+/** Logo styling **/
+#logo {
+    font-family: "Bungasai", sans-serif;
 }
 
 /** Browser compatibility with Windows Internet Explorer 8 and prior versions. **/
