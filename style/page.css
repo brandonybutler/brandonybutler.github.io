@@ -28,6 +28,7 @@ html {
 /** Logo styling **/
 #navigation-bar > #logo {
     font-family: "Bungasai", sans-serif;
+    line-height: 40px;
 }
 
 /** Browser compatibility with Windows Internet Explorer 8 and prior versions. **/
