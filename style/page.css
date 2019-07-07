@@ -26,7 +26,7 @@ html {
 }
 
 /** Logo styling **/
-#logo {
+#navigation-bar > #logo {
     font-family: "Bungasai", sans-serif;
 }
 
