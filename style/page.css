@@ -8,10 +8,10 @@ html {
     -ms-user-select: none;
     -o-user-select: none;
 
-    animation: fadein 2s;
-    -webkit-animation: fadein 2s;
-    -moz-animation: fadein 2s;
-    -ms-animation: fadein 2s;
+    animation: blurin 2s;
+    -webkit-animation: blurin 2s;
+    -moz-animation: blurin 2s;
+    -ms-animation: blurin 2s;
 
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
@@ -38,17 +38,17 @@ body > #navigation-bar {
     height: 65px;
     width: 100%;
 
-    border-bottom: 1px solid rgb(220, 220, 220);
+    /** border-bottom: 1px solid rgb(220, 220, 220);
     -webkit-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
     -moz-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
     -ms-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
     -o-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
-    box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
+    box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75); **/
 }
 
 body > #navigation-bar > #logo {
     line-height: 40px;
     padding: 10px;
     display: table;
-    margin: 0 auto;
+    margin-left: 15px;
 }
