@@ -1,11 +1,3 @@
-/** Logo font **/
-@font-face {
-    font-family: "Bungasai";
-    src: url("../fonts/Bungasai.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 /** Main page styling and fonts. **/
 html {
     font-family: "Nunito", sans-serif;
