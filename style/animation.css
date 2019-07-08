@@ -1,6 +1,6 @@
 /** THE BELOW CSS KEYFRAME LINES CREATE THE BLUR EFFECT UPON LOADING OF THE PAGE. **/
 /** Generic CSS **/
-@keyframes fadein {
+@keyframes blurin {
     from {  -webkit-filter: blur(15px);
             -moz-filter: blur(15px);
             -o-filter: blur(15px);
@@ -14,7 +14,7 @@
 }
 
 /** Mozilla Firefox **/
-@-moz-keyframes fadein {
+@-moz-keyframes blurin {
     from {  -webkit-filter: blur(15px);
             -moz-filter: blur(15px);
             -o-filter: blur(15px);
@@ -28,7 +28,7 @@
 }
 
 /** Apple Safari and Google Chrome **/
-@-webkit-keyframes fadein {
+@-webkit-keyframes blurin {
     from {  -webkit-filter: blur(15px);
             -moz-filter: blur(15px);
             -o-filter: blur(15px);
@@ -42,7 +42,7 @@
 }
 
 /** Windows Internet Explorer and Microsoft Edge **/
-@-ms-keyframes fadein {
+@-ms-keyframes blurin {
     from {  -webkit-filter: blur(15px);
             -moz-filter: blur(15px);
             -o-filter: blur(15px);
@@ -56,7 +56,7 @@
 }
 
 /** Opera **/
-@-o-keyframes fadein {
+@-o-keyframes blurin {
     from {  -webkit-filter: blur(15px);
             -moz-filter: blur(15px);
             -o-filter: blur(15px);
