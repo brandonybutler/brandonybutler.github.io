@@ -12,13 +12,6 @@ html {
     background-color: rgb(255, 255, 255);
 }
 
-/** Logo styling **/
-#navigation-bar > #logo {
-    font-size: 24px;
-    font-family: "Bungasai", sans-serif;
-    text-align: center;
-}
-
 /** Browser compatibility with Windows Internet Explorer 8 and prior versions. **/
 header, section, footer, aside, nav, main, article, figure {
     display: block;
@@ -44,11 +37,14 @@ body > #navigation-bar {
     box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
 }
 
+/** Logo styling **/
 body > #navigation-bar > #logo {
     line-height: 40px;
     padding: 10px;
     display: table;
     margin-left: 15px;
+    font-size: 24px;
+    font-family: "Bungasai", sans-serif;
 }
 
 /** Splash screen **/
