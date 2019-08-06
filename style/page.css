@@ -38,12 +38,12 @@ body > #navigation-bar {
     height: 65px;
     width: 100%;
 
-    /** border-bottom: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
     -webkit-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
     -moz-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
     -ms-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
     -o-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
-    box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75); **/
+    box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
 }
 
 body > #navigation-bar > #logo {
