@@ -34,7 +34,8 @@ body {
 body > #navigation-bar {
     height: 65px;
     width: 100%;
-
+    align-items: center;
+    
     border-bottom: 1px solid rgb(220, 220, 220);
     -webkit-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
     -moz-box-shadow: 0px 1px 3px 0px rgba(220, 220, 220, 0.75);
@@ -70,6 +71,7 @@ header {
     height: 100vh;
 }
 
+/** Scroll down arrow**/
 #down {
     position: absolute;
     top: 85vh;
@@ -83,6 +85,7 @@ header {
     cursor: pointer;
 }
 
+/** Title styling **/
 #headerTitle {
     color: rgb(255, 255, 255);
     font-size: 4em;
