@@ -68,3 +68,64 @@
             -ms-filter: blur(0px);
             filter: blur(0px);      }
 }
+
+/** THE BELOW CSS KEYFRAME LINES CREATE THE TYPING EFFECT WHEN WRITING THE SPLASH SCREEN TITLE. **/
+/** Generic CSS **/
+@keyframes typing {
+    from {  width: 0;     }
+    to   {  width: 100%;  }
+}
+
+/** Mozilla Firefox **/
+@-moz-keyframes typing {
+    from {  width: 0;     }
+    to   {  width: 100%;  }
+}
+
+/** Apple Safari and Google Chrome **/
+@-webkit-keyframes typing {
+    from {  width: 0;     }
+    to   {  width: 100%;  }
+}
+
+/** Windows Internet Explorer and Microsoft Edge **/
+@-ms-keyframes typing {
+    from {  width: 0;     }
+    to   {  width: 100%;  }
+}
+
+/** Opera **/
+@-o-keyframes typing {
+    from {  width: 0;     }
+    to   {  width: 100%;  }
+}
+
+/** Generic CSS **/
+@keyframes blink-caret {
+    from, to {  border-color: transparent;         }
+    50%      {  border-color: rgb(255, 255, 255);  }
+}
+
+/** Mozilla Firefox **/
+@-moz-keyframes blink-caret {
+    from, to {  border-color: transparent;         }
+    50%      {  border-color: rgb(255, 255, 255);  }
+}
+
+/** Apple Safari and Google Chrome **/
+@-webkit-keyframes blink-caret {
+    from, to {  border-color: transparent;         }
+    50%      {  border-color: rgb(255, 255, 255);  }
+}
+
+/** Windows Internet Explorer and Microsoft Edge **/
+@-ms-keyframes blink-caret {
+    from, to {  border-color: transparent;         }
+    50%      {  border-color: rgb(255, 255, 255);  }
+}
+
+/** Opera **/
+@-o-keyframes blink-caret {
+    from, to {  border-color: transparent;         }
+    50%      {  border-color: rgb(255, 255, 255);  }
+}
