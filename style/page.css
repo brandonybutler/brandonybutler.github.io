@@ -70,7 +70,7 @@ header {
 /** Scroll down arrow**/
 #down {
     position: absolute;
-    top: 85vh;
+    top: 95vh;
     size: 40px;
     padding: 20px;
     font-size: 1.5em;
