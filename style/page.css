@@ -73,9 +73,9 @@ header {
 #down {
     position: absolute;
     top: 85vh;
-    size: 20px;
+    size: 40px;
     padding: 20px;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: rgb(255, 255, 255);
 }
 
