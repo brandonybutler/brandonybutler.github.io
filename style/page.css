@@ -50,12 +50,11 @@ body > #navigation-bar > #logo {
 /** Splash screen **/
 header {
     height: 100vh;
-    /** background-image: url("../resources/bubble.jpg");
+    background-image: url("../resources/bubble.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; **/
-    background-color: rgb(34, 2, 0);
+    background-size: cover;
     
     display: flex;
     flex-direction: column;
