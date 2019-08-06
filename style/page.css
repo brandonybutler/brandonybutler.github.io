@@ -53,3 +53,31 @@ body > #navigation-bar > #logo {
     display: table;
     margin-left: 15px;
 }
+
+/** Splash screen **/
+header {
+    height: 100vh;
+    background-image: url("resources/bubble.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.content {
+    height: 100vh;
+}
+
+#down {
+    position: absolute;
+    top: 85vh;
+    size: 40px;
+    padding: 20px;
+    font-size: 2.5em;
+}
+
+#down:hover {
+    cursor: pointer;
+}
