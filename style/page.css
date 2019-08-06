@@ -57,7 +57,7 @@ body > #navigation-bar > #logo {
 /** Splash screen **/
 header {
     height: 100vh;
-    background-image: url("resources/bubble.jpg");
+    background-image: url("../resources/bubble.jpg");
     display: flex;
     flex-direction: column;
     align-items: center;
