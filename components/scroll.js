@@ -3,10 +3,10 @@ window.onbeforeunload = () => {
 }
 
 $(document).ready(() => {
-  $('#down').on('click', () => {
+  $("#down").on("click", () => {
     $("html").scrollTop(0);
-    $('html, body').animate({
-      scrollTop: $(".main").offset().top
+    $("html, body").animate({
+      scrollTop: $(".content").offset().top
     }, 1000);
   });
 });
