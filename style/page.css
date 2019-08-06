@@ -8,11 +8,6 @@ html {
     -ms-user-select: none;
     -o-user-select: none;
 
-    animation: blurin 2s;
-    -webkit-animation: blurin 2s;
-    -moz-animation: blurin 2s;
-    -ms-animation: blurin 2s;
-
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
@@ -33,6 +28,7 @@ header, section, footer, aside, nav, main, article, figure {
 body {
     margin: 0;
     padding: 0;
+    display: none;
 }
 
 body > #navigation-bar {
