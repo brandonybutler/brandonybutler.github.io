@@ -49,7 +49,7 @@ body > #navigation-bar > #logo {
 
 /** Splash screen **/
 header {
-    height: 85vh;
+    height: 95vh;
     background-image: url("../resources/bubble.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -70,7 +70,7 @@ header {
 /** Scroll down arrow**/
 #down {
     position: absolute;
-    top: 95vh;
+    top: 85vh;
     size: 40px;
     padding: 20px;
     font-size: 1.5em;
