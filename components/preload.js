@@ -6,7 +6,7 @@ function preload(imageArray) {
 
 preload(["../resources/bubble.jpg"]);
 
-$(() => {
+$(function() {
   $("body").css({
     "animation": "blurin 2s",
     "-webkit-animation": "blurin 2s",
