@@ -77,3 +77,12 @@ header {
 #down:hover {
     cursor: pointer;
 }
+
+#headerTitle {
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+}
+
+#colouredText {
+    color: rgb(255, 69, 0);
+}
