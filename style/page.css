@@ -49,7 +49,7 @@ body > #navigation-bar > #logo {
 
 /** Splash screen **/
 header {
-    height: 100vh;
+    height: 85vh;
     background-image: url("../resources/bubble.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -89,14 +89,6 @@ header {
 #headerTitle {
     color: rgb(255, 255, 255);
     font-size: 4em;
-    
-    overflow: hidden;
-    border-right: 0.15em solid rgb(255, 255, 255);
-    white-space: nowrap;
-    margin: 0 auto;
-    
-    animation: typing 3.5s steps(40, end),
-               blink-caret 0.75s step-end infinite;
 }
 
 #colouredText {
