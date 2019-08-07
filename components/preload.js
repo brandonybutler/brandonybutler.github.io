@@ -1,10 +1,14 @@
 $(window).on("load", () => {
     console.log("Checking if background image is loaded!");
 
-    setInterval(() => {
+    var interval;
+    
+    function checkImage() {
+      this.interval = setInterval(checkImage, 1000);
+        
       if (($("<img />").complete) && (!$("<img />").naturalWidth === 0)) {
           console.log("Background image is loaded!");
-          
+        
           $("body").css({
             "animation": "blurin 2s",
             "-webkit-animation": "blurin 2s",
@@ -13,7 +17,7 @@ $(window).on("load", () => {
           });
           $("body").show();
           
-          clearInterval(this);
+          clearInterval(this.interval);
       }
-    }, 1000);
+    });
 });
