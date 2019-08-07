@@ -75,15 +75,15 @@ header {
 }
 
 .content > .blogPosts {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 /** General items **/
 #title {
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 3px;
-    color: rgb(34, 34, 34);
+    font-size: 1.6em;
 }
 
 /** Scroll down arrow**/
