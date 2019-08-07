@@ -9,7 +9,7 @@ $("<img />")
     $("body").show();
   })
   .on("error", () => {
-    if (($("<img />").complete) || (!$("<img />").naturalWidth === 0) {
+    if (($("<img />").complete) || (!$("<img />").naturalWidth === 0)) {
         $("body").css({
           "animation": "blurin 2s",
           "-webkit-animation": "blurin 2s",
