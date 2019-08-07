@@ -21,6 +21,12 @@ header, section, footer, aside, nav, main, article, figure {
 body {
     margin: 0;
     padding: 0;
+    
+    animation: blurin 1.5s;
+    -webkit-animation: blurin 1.5s;
+    -moz-animation: blurin 1.5s;
+    -ms-animation: blurin 1.5s;
+    -o-animation: blurin 1.5s;
 }
 
 body > #navigation-bar {
