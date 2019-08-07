@@ -82,27 +82,50 @@ header {
 }
 
 /** General items **/
-#title {
+p#title {
     font-size: 1.6em;
 }
 
-#reference {
+/** Hyperlink underlining animation **/
+a {
     text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 3px;
     color: rgb(255, 69, 0);
-    font-size: 0.8em;
+    position: relative;
     
-    transition: color ease-in-out 1.5s;
-    -webkit-transition: color ease-in-out 1.5s;
-    -moz-transition: color ease-in-out 1.5s;
-    -ms-transition: color ease-in-out 1.5s;
-    -o-transition: color ease-in-out 1.5s;
+    transition: color ease-in-out 0.3s;
+    -webkit-transition: color ease-in-out 0.3s;
+    -moz-transition: color ease-in-out 0.3s;
+    -ms-transition: color ease-in-out 0.3s;
+    -o-transition: color ease-in-out 0.3s;
 }
 
-#reference:hover {
+a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(68, 68, 68);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+a:hover {
     cursor: pointer;
     color: rgb(68, 68, 68);
+}
+
+/** Reference-specific styling **/
+a#reference {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.8em;
 }
 
 /** Scroll down arrow**/
