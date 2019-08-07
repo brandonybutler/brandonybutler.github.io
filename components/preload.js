@@ -1,4 +1,4 @@
-$("<img />").on("load", () => {
+$(window).on("load", () => {
   $("body").css({
     "animation": "blurin 2s",
     "-webkit-animation": "blurin 2s",
