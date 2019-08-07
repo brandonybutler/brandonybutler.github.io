@@ -86,6 +86,18 @@ header {
     font-size: 1.6em;
 }
 
+#reference {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(255, 69, 0);
+}
+
+#reference:hover {
+    cursor: pointer;
+    color: rgb(68, 68, 68);
+}
+
 /** Scroll down arrow**/
 #down {
     position: absolute;
