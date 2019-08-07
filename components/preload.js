@@ -12,7 +12,6 @@ $(window).on("load", () => {
             "-ms-animation": "blurin 2s",
           });
           $("body").show();
-          break;
       }
     }, 1000);
   });
