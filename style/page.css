@@ -22,11 +22,11 @@ body {
     margin: 0;
     padding: 0;
     
-    animation: blurin 1.5s;
-    -webkit-animation: blurin 1.5s;
-    -moz-animation: blurin 1.5s;
-    -ms-animation: blurin 1.5s;
-    -o-animation: blurin 1.5s;
+    animation: blurin 2s;
+    -webkit-animation: blurin 2s;
+    -moz-animation: blurin 2s;
+    -ms-animation: blurin 2s;
+    -o-animation: blurin 2s;
 }
 
 body > #navigation-bar {
