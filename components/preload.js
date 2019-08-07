@@ -2,7 +2,7 @@ $(window).on("load", () => {
     console.log("Checking if background image is loaded!");
   
     while (true) {
-      if (($("<img />").complete) || (!$("<img />").naturalWidth === 0)) {
+      if (($("<img />").complete) && (!$("<img />").naturalWidth === 0)) {
           console.log("Background image is loaded!");
         
           $("body").css({
