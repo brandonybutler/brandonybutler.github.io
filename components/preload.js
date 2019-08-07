@@ -17,5 +17,5 @@ $(window).on("load", () => {
           
           clearInterval(this.interval);
       }
-    });
+    }   
 });
