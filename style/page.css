@@ -71,6 +71,19 @@ header {
 
 .content {
     height: 100vh;
+    padding: 40px;
+}
+
+.content > .blogPosts {
+    align-items: center;
+}
+
+/** General items **/
+#title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: rgb(34, 34, 34);
 }
 
 /** Scroll down arrow**/
