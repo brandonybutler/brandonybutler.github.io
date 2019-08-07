@@ -82,11 +82,11 @@ header {
 }
 
 #postTile {
-    width: 150px;
+    width: 175px;
     height: 250px;
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
-    border: 1px solid rgb(68, 68, 68);
+    border: 1px solid rgb(225, 225, 225);
     margin: 20px;
     padding: 20px;
     
@@ -99,6 +99,7 @@ header {
 
 #postTile:hover {
     cursor: pointer;
+    border: 1px solid rgb(68, 68, 68);
     box-shadow: 0px 0px 20px -1px rgba(68, 68, 68, 0.5);
     -webkit-box-shadow: 0px 0px 20px -1px rgba(68, 68, 68, 0.5);
     -moz-box-shadow: 0px 0px 20px -1px rgba(68, 68, 68, 0.5);
