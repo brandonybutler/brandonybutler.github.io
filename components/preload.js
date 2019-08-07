@@ -1,11 +1,9 @@
 $(window).on("load", () => {
     console.log("Checking if background image is loaded!");
 
-    var interval;
+    var interval = setInterval(checkImage, 1000);
     
     function checkImage() {
-      this.interval = setInterval(checkImage, 1000);
-        
       if (($("<img />").complete) && (!$("<img />").naturalWidth === 0)) {
           console.log("Background image is loaded!");
         
